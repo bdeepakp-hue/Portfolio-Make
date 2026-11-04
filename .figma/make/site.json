@@ -1,0 +1,10 @@
+{
+  "description": "Provides a clear, light-themed interface that makes page content easy to read and navigate.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
