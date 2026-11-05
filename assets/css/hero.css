@@ -1,5 +1,5 @@
 /* Home hero */
-body.home { background: rgb(240, 241, 246); font-family: "Manrope", system-ui, sans-serif; }
+body.home { background: #f8f9fa; font-family: "Manrope", system-ui, sans-serif; }
 body.home .container.h100 { min-height: 0; }
 
 .hero-copy { position: relative; max-width: 760px; margin: 0 auto; padding: 150px 0 88px; text-align: center; }
