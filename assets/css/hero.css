@@ -11,10 +11,8 @@ body.home .container.h100 { min-height: 0; }
 
 .hero-lede { max-width: 700px; margin: 28px auto 0; font-size: 19px; font-weight: 400; line-height: 1.7; letter-spacing: 0; color: rgb(98, 102, 114); }
 
-.hero-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; list-style: none; margin: 36px 0 0; padding: 0; }
-.hero-chip { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; font-size: 15px; font-weight: 500; color: rgb(98, 102, 114); background: #fff; border: 1px solid rgb(226, 228, 236); border-radius: 999px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
-.hero-chip strong { font-weight: 700; color: rgb(17, 18, 26); margin-right: 2px; }
-.hero-dot { width: 10px; height: 10px; border-radius: 50%; background: rgb(67, 85, 232); box-shadow: 0 0 0 3px rgba(67, 85, 232, 0.18); }
+.hero-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; list-style: none; margin: 36px 0 0; padding: 0; }
+.hero-tag { display: inline-flex; align-items: center; padding: 12px 22px; font-size: 16px; font-weight: 600; color: rgb(67, 85, 232); background: rgb(234, 235, 253); border-radius: 999px; }
 
 .hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 36px; }
 .hero-btn { display: inline-flex; align-items: center; justify-content: center; padding: 18px 28px; font-size: 17px; font-weight: 700; line-height: 1; border-radius: 10px; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
