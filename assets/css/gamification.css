@@ -47,6 +47,6 @@ body.gami { margin: 0; background: #fff; font-family: "Inter:Regular", system-ui
 
 /* The design is a fixed 1400px canvas; it is scaled to fit the viewport width. */
 .gami-viewport { width: 100%; overflow: hidden; }
-.gami-canvas { width: 1400px; height: 21982px; position: relative; overflow: hidden; transform-origin: 0 0; background: #fff; }
+.gami-canvas { width: 1400px; height: 21368px; position: relative; overflow: hidden; transform-origin: 0 0; background: #fff; }
 .gami-canvas img { user-select: none; }
 .gami-canvas img[src=""] { display: none; }
