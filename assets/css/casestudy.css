@@ -143,3 +143,40 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-stats.tn-stats-wide strong { font-size: 64px; color: rgb(205, 207, 215); }
 .tn-stats.tn-stats-wide span { display: block; margin-top: 12px; font-size: 17px; line-height: 1.6; color: var(--tn-muted); }
 @media (max-width: 767px) { .tn-stats.tn-stats-wide { grid-template-columns: 1fr; } }
+
+/* Section label (small caps mono), reused above chips/tables/swatches */
+.tn-label { margin: 0 0 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
+.tn-card .tn-label:not(:first-child) { margin-top: 18px; }
+
+/* Two-up card grid (odd counts, narrower cards than tn-cards3) */
+.tn-cards2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+@media (max-width: 767px) { .tn-cards2 { grid-template-columns: 1fr; } }
+
+/* Comparison table */
+.tn-table-wrap { overflow-x: auto; border: 1px solid var(--tn-border); border-radius: 20px; background: #fff; }
+.tn-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tn-table th, .tn-table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--tn-border); white-space: nowrap; }
+.tn-table thead th { font-family: "Plus Jakarta Sans", sans-serif; font-weight: 800; color: var(--tn-ink); background: var(--tn-bg-alt); }
+.tn-table tbody th { font-weight: 700; color: var(--tn-ink); background: var(--tn-accent-soft); white-space: normal; }
+.tn-table tbody tr:last-child td, .tn-table tbody tr:last-child th { border-bottom: 0; }
+.tn-level { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
+.tn-level::before { content: ""; width: 10px; height: 10px; border-radius: 50%; }
+.tn-level.high { color: #0a9152; } .tn-level.high::before { background: #1ed990; }
+.tn-level.med { color: #a9740a; } .tn-level.med::before { background: #fbc231; }
+.tn-level.low { color: #c2041a; } .tn-level.low::before { background: #f6384e; }
+
+/* Color swatches */
+.tn-swatches { display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0 0; }
+.tn-swatch { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.tn-swatch-chip { display: block; width: 64px; height: 64px; border-radius: 16px; border: 1px solid var(--tn-border); }
+.tn-swatch span { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; line-height: 1.5; color: var(--tn-muted); }
+
+/* Empathy map quadrants */
+.tn-quad { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
+.tn-quad > div { padding: 24px; background: #fff; border: 1px solid var(--tn-border); border-radius: 20px; }
+.tn-quad h4 { margin: 0 0 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-accent); }
+@media (max-width: 767px) { .tn-quad { grid-template-columns: 1fr; } }
+
+/* Two-group stat distribution (vs. the default 4-up tn-dists) */
+.tn-dists.tn-dists-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 575px) { .tn-dists.tn-dists-2 { grid-template-columns: 1fr; } }
