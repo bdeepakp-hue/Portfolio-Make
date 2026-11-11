@@ -3,16 +3,11 @@
 
 # ---------------------------------------------------------------------------
 # Images & Graphics
+# (kept out of LFS: this is a static site and most deploy hosts, e.g.
+# Vercel, don't fetch LFS content by default, which renders images as
+# broken pointer files. .psd/.ai/.sketch stay in LFS since they're not
+# served by the site.)
 # ---------------------------------------------------------------------------
-*.png                filter=lfs diff=lfs merge=lfs -text
-*.jpg                filter=lfs diff=lfs merge=lfs -text
-*.jpeg               filter=lfs diff=lfs merge=lfs -text
-*.gif                filter=lfs diff=lfs merge=lfs -text
-*.bmp                filter=lfs diff=lfs merge=lfs -text
-*.tiff               filter=lfs diff=lfs merge=lfs -text
-*.tif                filter=lfs diff=lfs merge=lfs -text
-*.ico                filter=lfs diff=lfs merge=lfs -text
-*.webp               filter=lfs diff=lfs merge=lfs -text
 *.psd                filter=lfs diff=lfs merge=lfs -text
 *.ai                 filter=lfs diff=lfs merge=lfs -text
 *.sketch             filter=lfs diff=lfs merge=lfs -text
@@ -70,16 +65,12 @@
 
 # ---------------------------------------------------------------------------
 # Documents & Fonts
+# (web font formats kept out of LFS for the same reason as images above)
 # ---------------------------------------------------------------------------
 *.pdf                filter=lfs diff=lfs merge=lfs -text
 *.docx               filter=lfs diff=lfs merge=lfs -text
 *.xlsx               filter=lfs diff=lfs merge=lfs -text
 *.pptx               filter=lfs diff=lfs merge=lfs -text
-*.ttf                filter=lfs diff=lfs merge=lfs -text
-*.otf                filter=lfs diff=lfs merge=lfs -text
-*.woff               filter=lfs diff=lfs merge=lfs -text
-*.woff2              filter=lfs diff=lfs merge=lfs -text
-*.eot                filter=lfs diff=lfs merge=lfs -text
 
 # ---------------------------------------------------------------------------
 # Data & Machine Learning
