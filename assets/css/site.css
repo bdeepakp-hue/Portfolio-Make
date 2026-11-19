@@ -1,6 +1,9 @@
 /* Case study thumbnails: normalize to one aspect ratio regardless of source image size */
 #work .card-img-top { aspect-ratio: 16 / 9; width: 100%; object-fit: cover; object-position: center; }
 
+/* bootstrap.min.css sets a { text-decoration: underline } after resource-16.css's reset, so the case study cards need it removed again */
+#work .card { text-decoration: none; }
+
 /* Shared site chrome: header + footer (identical on every page) */
 .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 1030; background: #fff; border-bottom: 1px solid rgb(226, 228, 236); font-family: "Manrope", system-ui, sans-serif; }
 .site-nav { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 1320px; height: 56px; margin: 0 auto; padding: 0 24px; }
