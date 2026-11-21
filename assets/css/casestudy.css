@@ -161,6 +161,7 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-table tbody tr:last-child td, .tn-table tbody tr:last-child th { border-bottom: 0; }
 .tn-level { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
 .tn-level::before { content: ""; width: 10px; height: 10px; border-radius: 50%; }
+.tn-table.tn-table-wrap-text th, .tn-table.tn-table-wrap-text td { white-space: normal; }
 .tn-level.high { color: #0a9152; } .tn-level.high::before { background: #1ed990; }
 .tn-level.med { color: #a9740a; } .tn-level.med::before { background: #fbc231; }
 .tn-level.low { color: #c2041a; } .tn-level.low::before { background: #f6384e; }
@@ -179,4 +180,10 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 
 /* Two-group stat distribution (vs. the default 4-up tn-dists) */
 .tn-dists.tn-dists-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* Pending screenshot / link: dashed placeholder, swap for a real <img> or <a> later */
+.tn-placeholder { display: flex; align-items: center; justify-content: center; min-height: 220px; padding: 24px; text-align: center; font-size: 14px; line-height: 1.5; color: var(--tn-muted); background: var(--tn-bg-alt); border: 1px dashed var(--tn-border); border-radius: 18px; }
+
+/* Pull quote */
+.tn-quote { margin: 0; padding: 40px 0 0; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: clamp(22px, 2.6vw, 30px); font-weight: 700; line-height: 1.4; letter-spacing: -0.01em; color: var(--tn-ink); border-top: 1px solid var(--tn-border); }
 @media (max-width: 575px) { .tn-dists.tn-dists-2 { grid-template-columns: 1fr; } }
