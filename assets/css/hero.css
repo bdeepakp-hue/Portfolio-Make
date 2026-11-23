@@ -6,7 +6,7 @@ body.home .container.h100 { min-height: 0; }
 
 .hero-eyebrow { margin: 0 0 14px; font-family: "Geist", sans-serif; font-size: 13px; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(67, 85, 232); }
 
-.hero-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(40px, 6.4vw, 68px); font-weight: 800; line-height: 1.08; letter-spacing: -0.03em; color: rgb(17, 18, 26); }
+.hero-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(40px, 6.4vw, 68px); font-weight: 700; line-height: 1.08; letter-spacing: -0.03em; color: rgb(17, 18, 26); }
 .hero-grad { background: linear-gradient(90deg, rgb(67, 85, 232) 0%, rgb(124, 92, 236) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
 
 .hero-lede { max-width: 700px; margin: 28px auto 0; font-size: 19px; font-weight: 400; line-height: 1.7; letter-spacing: 0; color: rgb(98, 102, 114); }
@@ -39,12 +39,12 @@ html { scroll-behavior: smooth; }
 .process { padding: 56px 0 104px; scroll-margin-top: 72px; }
 .process-eyebrow { margin: 0 0 22px; font-family: "Geist", sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0.16em; color: rgb(98, 102, 114); }
 .process-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 20px 48px; }
-.process-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(38px, 5vw, 56px); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; color: rgb(17, 18, 26); }
+.process-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(38px, 5vw, 56px); font-weight: 700; line-height: 1.1; letter-spacing: -0.03em; color: rgb(17, 18, 26); }
 .process-intro { max-width: 430px; margin: 4px 0 0; font-size: 20px; font-weight: 400; line-height: 1.6; color: rgb(98, 102, 114); }
 .process-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; list-style: none; margin: 56px 0 0; padding: 0; align-items: stretch; }
 .process-card { display: flex; flex-direction: column; align-items: flex-start; padding: 32px; background: #fff; border: 1px solid rgb(226, 228, 236); border-radius: 28px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
 .process-tag { display: inline-block; padding: 8px 15px; font-family: "Geist", sans-serif; font-size: 15px; font-weight: 400; line-height: 1.2; color: rgb(67, 85, 232); background: rgb(232, 234, 252); border-radius: 999px; }
-.process-card-title { margin: 26px 0 0; font-family: "Geist", sans-serif; font-size: 26px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em; color: rgb(17, 18, 26); }
+.process-card-title { margin: 26px 0 0; font-family: "Geist", sans-serif; font-size: 26px; font-weight: 700; line-height: 1.5; letter-spacing: -0.02em; color: rgb(17, 18, 26); }
 .process-card-text { margin: 12px 0 16px; font-size: 18px; font-weight: 400; line-height: 1.78; color: rgb(98, 102, 114); }
 .process-card-text { max-width: none; }
 .process-tag-out { margin-top: auto; }
@@ -60,7 +60,7 @@ html { scroll-behavior: smooth; }
 .about { padding: 24px 0 120px; scroll-margin-top: 72px; }
 .about .process-title { margin-bottom: 0; }
 .about-card { display: grid; grid-template-columns: 218px minmax(0, 1fr); gap: 48px 114px; margin-top: 64px; padding: 58px 58px 52px; background: #fff; border: 1px solid rgb(226, 228, 236); border-radius: 32px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
-.about-avatar { display: flex; align-items: center; justify-content: center; width: 218px; height: 218px; border-radius: 50%; font-family: "Geist", sans-serif; font-size: 52px; font-weight: 800; letter-spacing: -0.02em; color: rgb(67, 85, 232); background: linear-gradient(135deg, rgb(232, 234, 252), rgb(240, 238, 253)); border: 1px solid rgb(226, 228, 240); box-shadow: 0 6px 16px rgba(67, 85, 232, 0.1); }
+.about-avatar { display: flex; align-items: center; justify-content: center; width: 218px; height: 218px; border-radius: 50%; font-family: "Geist", sans-serif; font-size: 52px; font-weight: 700; letter-spacing: -0.02em; color: rgb(67, 85, 232); background: linear-gradient(135deg, rgb(232, 234, 252), rgb(240, 238, 253)); border: 1px solid rgb(226, 228, 240); box-shadow: 0 6px 16px rgba(67, 85, 232, 0.1); }
 .about-text { max-width: 850px; margin: 0 0 22px; font-size: 22px; font-weight: 400; line-height: 1.7; color: rgb(98, 102, 114); }
 .about-text strong { font-weight: 700; color: rgb(17, 18, 26); }
 .about-group { margin-top: 30px; }
@@ -89,5 +89,5 @@ html { scroll-behavior: smooth; }
 .contact-link:hover { color: rgb(67, 85, 232); border-color: rgb(67, 85, 232); }
 @media (max-width: 991px) { .contact-card { flex-direction: column; padding: 36px 28px; margin-top: 40px; } .contact-email, .contact-link { font-size: 20px; } }
 
-.about-tools-title { margin: 40px 0 0; font-family: "Geist", sans-serif; font-size: 22px; font-weight: 800; letter-spacing: -0.01em; color: rgb(17, 18, 26); }
+.about-tools-title { margin: 40px 0 0; font-family: "Geist", sans-serif; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; color: rgb(17, 18, 26); }
 .about-tools-title + .about-group { margin-top: 16px; }
