@@ -5,9 +5,9 @@
 #work .card { text-decoration: none; }
 
 /* Shared site chrome: header + footer (identical on every page) */
-.site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 1030; background: #fff; border-bottom: 1px solid rgb(226, 228, 236); font-family: "Manrope", system-ui, sans-serif; }
+.site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 1030; background: #fff; border-bottom: 1px solid rgb(226, 228, 236); font-family: "Geist", system-ui, sans-serif; }
 .site-nav { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: 1320px; height: 56px; margin: 0 auto; padding: 0 24px; }
-.site-brand { font-family: "Plus Jakarta Sans", "Manrope", system-ui, sans-serif; font-size: 18px; font-weight: 800; letter-spacing: -0.01em; color: rgb(17, 18, 26); text-decoration: none; white-space: nowrap; }
+.site-brand { font-family: "Geist", system-ui, sans-serif; font-size: 18px; font-weight: 800; letter-spacing: -0.01em; color: rgb(17, 18, 26); text-decoration: none; white-space: nowrap; }
 .site-brand:hover { color: rgb(67, 85, 232); }
 .site-menu { display: flex; align-items: center; }
 .site-links { display: flex; align-items: center; gap: 28px; list-style: none; margin: 0; padding: 0; }
@@ -23,7 +23,7 @@
 .site-nav-toggle { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 40px; height: 40px; padding: 0 9px; background: transparent; border: 1px solid rgb(226, 228, 236); border-radius: 10px; cursor: pointer; }
 .site-nav-toggle span { display: block; height: 2px; background: rgb(17, 18, 26); border-radius: 2px; }
 
-.site-footer { border-top: 1px solid rgb(226, 228, 236); font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+.site-footer { border-top: 1px solid rgb(226, 228, 236); font-family: "Geist", sans-serif; }
 .site-footer-inner { max-width: 1320px; margin: 0 auto; padding: 28px 24px; }
 .site-footer p { margin: 0; font-size: 14px; font-weight: 400; letter-spacing: 0.02em; color: rgb(98, 102, 114); }
 

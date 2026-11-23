@@ -1,12 +1,12 @@
 /* TravelNext case study — matches the portfolio's light theme */
 :root { --tn-bg: rgb(240, 241, 246); --tn-bg-alt: rgb(232, 234, 242); --tn-ink: rgb(17, 18, 26); --tn-body: rgb(62, 66, 80); --tn-muted: rgb(98, 102, 114); --tn-accent: rgb(67, 85, 232); --tn-accent-soft: rgb(232, 234, 252); --tn-border: rgb(226, 228, 236); }
-body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope", system-ui, sans-serif; padding-top: 56px; }
+body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Geist", system-ui, sans-serif; padding-top: 56px; }
 .tn-wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 
 /* Typography */
-.tn-eyebrow { margin: 0 0 16px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tn-muted); }
-.tn-title { margin: 0; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: clamp(32px, 4.4vw, 48px); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; color: var(--tn-ink); }
-.tn-h3 { margin: 0 0 12px; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: 20px; font-weight: 800; line-height: 1.3; letter-spacing: -0.01em; color: var(--tn-ink); }
+.tn-eyebrow { margin: 0 0 16px; font-family: "Geist", sans-serif; font-size: 14px; letter-spacing: 0.16em; color: var(--tn-muted); }
+.tn-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(32px, 4.4vw, 48px); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; color: var(--tn-ink); }
+.tn-h3 { margin: 0 0 12px; font-family: "Geist", sans-serif; font-size: 20px; font-weight: 800; line-height: 1.3; letter-spacing: -0.01em; color: var(--tn-ink); }
 .tn-h3-lg { font-size: 26px; }
 .tn-lead { margin: 0 0 20px; font-size: 19px; line-height: 1.7; color: var(--tn-muted); }
 .tn-lead.tn-sm { font-size: 16px; line-height: 1.65; margin-bottom: 16px; }
@@ -19,11 +19,11 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 /* Hero */
 .tn-hero { padding: 88px 0 64px; }
 .tn-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 56px; align-items: center; }
-.tn-hero-title { margin: 0; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: clamp(36px, 4.6vw, 64px); font-weight: 800; line-height: 1.02; letter-spacing: -0.04em; color: var(--tn-ink); }
-.tn-hero-lede { margin: 20px 0 0; max-width: 520px; font-size: 21px; line-height: 1.6; color: var(--tn-muted); }
+.tn-hero-title { margin: 0; font-family: "Geist", sans-serif; font-size: clamp(32px, 3vw, 40px); font-weight: 800; line-height: 1.02; letter-spacing: -0.04em; color: var(--tn-ink); }
+.tn-hero-lede { margin: 20px 0 0; max-width: 520px; font-size: 16px; line-height: 1.6; color: var(--tn-muted); }
 .tn-meta-list { display: flex; flex-wrap: wrap; gap: 28px 48px; list-style: none; margin: 32px 0 0; padding: 0; }
 .tn-meta-list li { display: flex; flex-direction: column; gap: 6px; max-width: 240px; }
-.tn-meta-list span { font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: 17px; font-weight: 800; color: var(--tn-ink); }
+.tn-meta-list span { font-family: "Geist", sans-serif; font-size: 17px; font-weight: 800; color: var(--tn-ink); }
 .tn-meta-list p { margin: 0; font-size: 16px; line-height: 1.5; color: var(--tn-muted); }
 .tn-hero-fig img { border-radius: 24px; }
 
@@ -46,13 +46,13 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-fig img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--tn-border); border-radius: 18px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
 .tn-fig-bare img { background: transparent; border: 0; box-shadow: none; border-radius: 0; }
 .tn-fig-photo img { border: 0; }
-.tn-fig figcaption { margin-top: 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.04em; color: var(--tn-muted); }
+.tn-fig figcaption { margin-top: 12px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.04em; color: var(--tn-muted); }
 
 /* Cards / chips / tags */
 .tn-card, .tn-part { padding: 32px; background: #fff; border: 1px solid var(--tn-border); border-radius: 24px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
 .tn-meta { font-size: 15px !important; color: var(--tn-muted) !important; }
 .tn-meta strong { color: var(--tn-ink); }
-.tn-tag { display: inline-block; margin-bottom: 14px; padding: 6px 14px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; color: var(--tn-accent); background: var(--tn-accent-soft); border-radius: 999px; }
+.tn-tag { display: inline-block; margin-bottom: 14px; padding: 6px 14px; font-family: "Geist", sans-serif; font-size: 13px; color: var(--tn-accent); background: var(--tn-accent-soft); border-radius: 999px; }
 .tn-chips { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin: 0; padding: 0; }
 .tn-chips li { padding: 9px 17px; font-size: 16px; line-height: 1.3; color: var(--tn-ink); background: #fff; border: 1px solid var(--tn-border); border-radius: 999px; }
 
@@ -61,12 +61,12 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-persona { padding: 36px; background: #fff; border: 1px solid var(--tn-border); border-radius: 28px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
 .tn-persona-head { display: flex; align-items: center; gap: 24px; }
 .tn-persona-head img { width: 96px; height: 96px; object-fit: cover; object-position: top; border-radius: 50%; flex: none; }
-.tn-persona-n { margin: 0 0 4px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tn-accent); }
+.tn-persona-n { margin: 0 0 4px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tn-accent); }
 .tn-persona-head .tn-h3 { margin: 0; }
 .tn-persona-meta { margin: 4px 0 0; font-size: 15px; color: var(--tn-muted); }
 .tn-persona-bio { margin: 24px 0 0; font-size: 17px; line-height: 1.75; color: var(--tn-body); }
 .tn-persona-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 28px; padding-top: 28px; border-top: 1px solid var(--tn-border); }
-.tn-persona-grid h4 { margin: 0 0 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
+.tn-persona-grid h4 { margin: 0 0 12px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
 .tn-persona-grid .tn-list li { font-size: 15px; }
 
 /* Team */
@@ -79,20 +79,20 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-steps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 20px; list-style: none; margin: 0; padding: 0; }
 .tn-steps > li { padding: 28px 24px; background: #fff; border: 1px solid var(--tn-border); border-radius: 24px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
 .tn-steps p { font-size: 15px; line-height: 1.65; margin: 0; }
-.tn-step-n { display: inline-block; margin-bottom: 14px; padding: 6px 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; color: var(--tn-accent); background: var(--tn-accent-soft); border-radius: 999px; }
+.tn-step-n { display: inline-block; margin-bottom: 14px; padding: 6px 12px; font-family: "Geist", sans-serif; font-size: 13px; color: var(--tn-accent); background: var(--tn-accent-soft); border-radius: 999px; }
 .tn-plan { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; list-style: none; margin: 0 0 8px; padding: 0; }
 .tn-plan li { padding: 24px; background: #fff; border: 1px solid var(--tn-border); border-radius: 20px; }
 .tn-plan p { font-size: 15px; margin: 0; }
 
 /* Stats */
 .tn-stats { display: flex; flex-wrap: wrap; gap: 20px 48px; list-style: none; margin: 0 0 32px; padding: 0; }
-.tn-stats strong { display: block; font-family: "Plus Jakarta Sans", sans-serif; font-size: 44px; font-weight: 800; line-height: 1; color: var(--tn-accent); }
+.tn-stats strong { display: block; font-family: "Geist", sans-serif; font-size: 44px; font-weight: 800; line-height: 1; color: var(--tn-accent); }
 .tn-stats span { font-size: 14px; color: var(--tn-muted); }
 .tn-dists { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding: 28px; background: #fff; border: 1px solid var(--tn-border); border-radius: 24px; }
-.tn-dist h4 { margin: 0 0 14px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
+.tn-dist h4 { margin: 0 0 14px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
 .tn-dist ul { list-style: none; margin: 0; padding: 0; }
 .tn-dist ul:not(.tn-list) li { display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px; }
-.tn-dist strong { min-width: 28px; font-family: "Plus Jakarta Sans", sans-serif; font-size: 22px; font-weight: 800; color: var(--tn-ink); }
+.tn-dist strong { min-width: 28px; font-family: "Geist", sans-serif; font-size: 22px; font-weight: 800; color: var(--tn-ink); }
 .tn-dist span { font-size: 15px; color: var(--tn-body); }
 .tn-dist .tn-list { padding-left: 18px; }
 .tn-dist .tn-list li { font-size: 15px; margin-bottom: 6px; }
@@ -146,7 +146,7 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 @media (max-width: 767px) { .tn-stats.tn-stats-wide { grid-template-columns: 1fr; } }
 
 /* Section label (small caps mono), reused above chips/tables/swatches */
-.tn-label { margin: 0 0 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
+.tn-label { margin: 0 0 12px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-muted); }
 .tn-card .tn-label:not(:first-child) { margin-top: 18px; }
 
 /* Two-up card grid (odd counts, narrower cards than tn-cards3) */
@@ -157,7 +157,7 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-table-wrap { overflow-x: auto; border: 1px solid var(--tn-border); border-radius: 20px; background: #fff; }
 .tn-table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .tn-table th, .tn-table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--tn-border); white-space: nowrap; }
-.tn-table thead th { font-family: "Plus Jakarta Sans", sans-serif; font-weight: 800; color: var(--tn-ink); background: var(--tn-bg-alt); }
+.tn-table thead th { font-family: "Geist", sans-serif; font-weight: 800; color: var(--tn-ink); background: var(--tn-bg-alt); }
 .tn-table tbody th { font-weight: 700; color: var(--tn-ink); background: var(--tn-accent-soft); white-space: normal; }
 .tn-table tbody tr:last-child td, .tn-table tbody tr:last-child th { border-bottom: 0; }
 .tn-level { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
@@ -171,12 +171,12 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-swatches { display: flex; flex-wrap: wrap; gap: 20px; margin: 24px 0 0; }
 .tn-swatch { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
 .tn-swatch-chip { display: block; width: 64px; height: 64px; border-radius: 16px; border: 1px solid var(--tn-border); }
-.tn-swatch span { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; line-height: 1.5; color: var(--tn-muted); }
+.tn-swatch span { font-family: "Geist", sans-serif; font-size: 13px; line-height: 1.5; color: var(--tn-muted); }
 
 /* Empathy map quadrants */
 .tn-quad { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
 .tn-quad > div { padding: 24px; background: #fff; border: 1px solid var(--tn-border); border-radius: 20px; }
-.tn-quad h4 { margin: 0 0 12px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-accent); }
+.tn-quad h4 { margin: 0 0 12px; font-family: "Geist", sans-serif; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tn-accent); }
 @media (max-width: 767px) { .tn-quad { grid-template-columns: 1fr; } }
 
 /* Two-group stat distribution (vs. the default 4-up tn-dists) */
@@ -186,7 +186,7 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-placeholder { display: flex; align-items: center; justify-content: center; min-height: 220px; padding: 24px; text-align: center; font-size: 14px; line-height: 1.5; color: var(--tn-muted); background: var(--tn-bg-alt); border: 1px dashed var(--tn-border); border-radius: 18px; }
 
 /* Pull quote */
-.tn-quote { margin: 0; padding: 40px 0 0; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: clamp(22px, 2.6vw, 30px); font-weight: 700; line-height: 1.4; letter-spacing: -0.01em; color: var(--tn-ink); border-top: 1px solid var(--tn-border); }
+.tn-quote { margin: 0; padding: 40px 0 0; font-family: "Geist", sans-serif; font-size: clamp(22px, 2.6vw, 30px); font-weight: 700; line-height: 1.4; letter-spacing: -0.01em; color: var(--tn-ink); border-top: 1px solid var(--tn-border); }
 
 /* Icon list card: a titled card of icon + heading + description rows */
 .tn-icon-card { padding: 28px; background: #fff; border: 1px solid var(--tn-border); border-radius: 24px; box-shadow: 0 1px 3px rgba(20, 22, 40, 0.06); }
@@ -196,7 +196,7 @@ body.tn { background: var(--tn-bg); color: var(--tn-body); font-family: "Manrope
 .tn-icon-list li:last-child { padding-bottom: 0; border-bottom: 0; }
 .tn-icon-badge { display: flex; align-items: center; justify-content: center; flex: none; width: 44px; height: 44px; border-radius: 13px; background: var(--tn-accent-soft); color: var(--tn-accent); }
 .tn-icon-badge svg { width: 22px; height: 22px; }
-.tn-icon-list h4 { margin: 0 0 4px; font-family: "Plus Jakarta Sans", "Manrope", sans-serif; font-size: 16px; font-weight: 800; color: var(--tn-ink); }
+.tn-icon-list h4 { margin: 0 0 4px; font-family: "Geist", sans-serif; font-size: 16px; font-weight: 800; color: var(--tn-ink); }
 .tn-icon-list p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--tn-muted); }
 @media (max-width: 575px) { .tn-icon-card { padding: 20px; } }
 @media (max-width: 575px) { .tn-dists.tn-dists-2 { grid-template-columns: 1fr; } }

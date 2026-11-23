@@ -1,10 +1,9 @@
-/* Resume page — typography follows the design (Helvetica; not resolvable here, so system Helvetica/Arial is used) */
 :root {
   --rs-accent: #7258ff;
   --rs-ink: #131314;
   --rs-muted: #474747;
   --rs-role: #333333;
-  --rs-font: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  --rs-font: "Geist", sans-serif;
 }
 body.resume { background: #fff; color: var(--rs-ink); font-family: var(--rs-font); padding-top: 56px; }
 
